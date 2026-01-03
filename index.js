@@ -1,9 +1,9 @@
 
-import { saveSettingsDebounced, loadSettings, getContext } from "../../../extensions.js";
-import { getChatId, saveChatDebounced } from "../../../chat-storage.js";
-import { extension_settings, chat_metadata } from "../../../global.js";
-import { POPUP_TYPE, popup } from "../../../popup.js";
-import { generateQuietly } from "../../../script.js"; // Helper if available, otherwise we use fetch directly
+import { saveSettingsDebounced, loadSettings, getContext } from "../../extensions.js";
+import { getChatId, saveChatDebounced } from "../../chat-storage.js";
+import { extension_settings, chat_metadata } from "../../global.js";
+import { POPUP_TYPE, popup } from "../../popup.js";
+import { generateQuietly } from "../../script.js"; // Helper if available, otherwise we use fetch directly
 
 // Default Settings
 const DEFAULT_SETTINGS = {
