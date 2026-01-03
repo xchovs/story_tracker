@@ -1,0 +1,9 @@
+{
+    "display_name": "剧情追踪 (Story Tracker)",
+    "is_module": true,
+    "loading_order": 5,
+    "requires": [],
+    "author": "Antigravity",
+    "version": "1.0.0",
+    "description": "使用独立的副API自动梳理剧情、追踪角色和物品状态。支持手动编辑和重新整理。"
+}
